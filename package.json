@@ -1,13 +1,16 @@
 {
-  "name": "server",
+  "name": "index",
   "version": "1.0.0",
-  "main": "server.js",
+  "main": "index.js",
   "devDependencies": {},
   "keywords": [],
   "author": "",
   "license": "ISC",
   "description": "",
-  
+  "scripts": {
+    "build": "npm run build",
+    "start": "node index.js"
+  },
   "dependencies": {
     "body-parser": "^1.20.3",
     "cors": "^2.8.5",
